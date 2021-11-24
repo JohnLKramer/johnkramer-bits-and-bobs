@@ -30,6 +30,8 @@
 ####    You should run:                                                                ####
 ####      $cli.sh test                                                                 ####
 ####    This will set the jdk appropriately before running tests                       ####
+#### 4. If this script doesn't contain the project where you want to run cli.sh, add   ####
+####    it. To add my-project add the line my_project="${JDK8}" or my_project=${JDK11} ####
 ###########################################################################################
 ###########################################################################################
 JDK8="8.302.08.1-amzn"
